@@ -1,2 +1,4 @@
 # ducky
-java -jar duckencoder.jar -i exploit.txt -o /media/microsdcard/inject.bin
+git clone https://github.com/jbarcia/ducky && cd ducky
+chmod a+rx /Volumes/USB-Blanca/Hak5/RubberDucky/ducky/duckencode.jar
+java -jar /Volumes/USB-Blanca/Hak5/RubberDucky/ducky/duckencode.jar -i helloworld.txt -o /Volumes/RubberDucky/inject.bin
